@@ -5,7 +5,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		onInit: function () {
 				var oJSONModel = new JSONModel({});
 			this.getOwnerComponent().setModel(oJSONModel, "passingParameters");
-			if(1===1){}
+			if(1===1){ 
+
+				var A = 12;
+			}
 			
 		},
 // my second commit
