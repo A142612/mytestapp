@@ -5,9 +5,11 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 		onInit: function () {
 				var oJSONModel = new JSONModel({});
 			this.getOwnerComponent().setModel(oJSONModel, "passingParameters");
-			
+			if(1===1){}
 			
 		},
+// my second commit
+
 		/**
 		 *@memberOf agl.test.app.mytestapp.controller.Home
 		 */
