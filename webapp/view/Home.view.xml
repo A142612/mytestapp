@@ -1,0 +1,21 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="agl.test.app.mytestapp.controller.Home" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<sap.m.semantic:SemanticPage xmlns:sap.m.semantic="sap.m.semantic" title="Semantic Page" id="page0">
+				    <sap.m.semantic:content>
+				        <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" layout="ResponsiveGridLayout" id="form0">
+				            <sap.ui.layout.form:content>
+				                <sap.ui.core:Title text="Title" id="title0"/>
+				                <Label text="Material" id="label0"/>
+				                <Input width="100%" id="input0" showValueHelp="true" valueHelpRequest="onValueHelp"/>
+				                <Label text="Material Description" id="label1"/>
+				                <Input width="100%" id="input2"/></sap.ui.layout.form:content>
+				        </sap.ui.layout.form:SimpleForm>
+				    </sap.m.semantic:content>
+				</sap.m.semantic:SemanticPage>
+
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
