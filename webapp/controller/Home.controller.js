@@ -8,6 +8,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 			if(1===1){ 
 
 				var A = 12;
+				var b = 13;
 			}
 			
 		},
